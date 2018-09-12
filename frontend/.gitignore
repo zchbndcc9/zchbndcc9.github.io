@@ -1,10 +1,10 @@
 # Project dependencies
 .cache
-node_modules
-/yarn-error.log
-/.prettierrc
-/package-lock.json
-/yarn.lock
+frontend/node_modules
+frontend/yarn-error.log
+frontend/.prettierrc
+frontend/package-lock.json
+frontend/yarn.lock
 
 # Build directory
 /public
