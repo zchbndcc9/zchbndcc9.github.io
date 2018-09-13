@@ -12,7 +12,6 @@
     "gatsby-plugin-typography": "^1.7.19",
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
-    "gh-pages": "^1.2.0",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
@@ -24,11 +23,11 @@
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d public"
+    "deploy": "gatsby build && gh-pages -b master -d public"
   },
   "devDependencies": {
-    "prettier": "^1.13.7"
+    "prettier": "^1.13.7",
+    "gh-pages": "^1.2.0"
   },
   "repository": {
     "type": "git",
