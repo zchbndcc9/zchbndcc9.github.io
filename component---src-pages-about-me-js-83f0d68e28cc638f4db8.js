@@ -1,0 +1,2 @@
+webpackJsonp([0xdba1159133c7],{211:function(e,t,n){(function(a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var u=n(4),o=(l(u),function(){return a.createElement("div",null,a.createElement("h1",null,"This is a page talking about me as a person and other cool things"))});t.default=o,e.exports=t.default}).call(t,n(12))}});
+//# sourceMappingURL=component---src-pages-about-me-js-83f0d68e28cc638f4db8.js.map
