@@ -1,18 +1,20 @@
 {
-  "name": "zachary-banducci-blogspot",
-  "description": "Zach Banducci Blogspot",
+  "name": "zchbndcc9.github.io",
+  "description": "Zach Banducci's portfolio site",
   "version": "1.0.0",
-  "homepage": "https://zchbndcc9.github.io",
-  "author": "Zach Banducci <zbduccie@gmail.com>",
+  "author": "Zach Banducci <zbducci@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.277",
-    "gatsby-link": "^1.6.46",
-    "gatsby-plugin-glamor": "^1.6.13",
-    "gatsby-plugin-react-helmet": "^2.0.11",
-    "gatsby-plugin-typography": "^1.7.19",
-    "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.44",
-    "react-helmet": "^5.2.0"
+    "antd": "^3.12.4",
+    "gatsby": "^2.0.91",
+    "gh-pages": "^1.2.0",
+    "history": "^4.7.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-helmet": "^5.2.0",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^4.3.1",
+    "react-scroll-parallax": "^1.3.5",
+    "webpack": "^4.28.4"
   },
   "keywords": [
     "gatsby"
@@ -31,6 +33,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/zchbndcc9/zchbndcc9.github.io"
   }
 }
