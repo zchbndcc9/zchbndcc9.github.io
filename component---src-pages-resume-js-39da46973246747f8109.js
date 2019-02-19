@@ -1,2 +1,0 @@
-webpackJsonp([0x8eb291567e75],{214:function(e,t,u){(function(n){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var s=u(4),a=(l(s),function(){return n.createElement("div",null,n.createElement("h1",null,"This is a resume page that showcases my resume"))});t.default=a,e.exports=t.default}).call(t,u(12))}});
-//# sourceMappingURL=component---src-pages-resume-js-39da46973246747f8109.js.map
