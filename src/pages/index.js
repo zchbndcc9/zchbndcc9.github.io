@@ -1,103 +1,61 @@
 import React from 'react'
+import 'antd/dist/antd.css'
+import './index.css'
 
-import headerImg from '../pics/header.jpg'
-import node from '../pics/node-dot-js.svg'
-import react from '../pics/react.svg'
-import css3 from '../pics/css3.svg'
-import cplusplus from '../pics/C++-595b40b75ba036ed117d5b19.svg'
-import javascript from '../pics/javascript.svg'
-import html5 from '../pics/html5.svg'
+import { Row, Col } from 'antd';
 
-const headerImage = {
-  height: '90vh',
-  display: 'flex',
-  background: `url(${headerImg}) center bottom`,
-  backgroundSize: 'cover',
-  justifyContent: 'center',
-  alignItems: 'center',
-  flexDirection: 'column',
-}
+import { 
+  smu,
+  veryable, 
+  postgres, 
+  react,
+  node, 
+  cpp,
+} from '../assets/logos'
 
-const caption = {
-  display: 'flex',
-  transform: 'scale(1.2)',
-  flexFlow: 'column',
-  alignItems: 'center'
-}
 
-const mainContent = {
-  margin: 'auto',
-  padding: '4em 0',
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  alignSelf: 'center',
-  maxWidth: '50em',
-}
+import Fade from 'react-reveal/fade'
+import { Layout, Header, AboutMe, Skills, Projects } from '../containers'
+import Card from '../components/card';
 
-const section = {
-  margin: '0 auto',
-  padding: '0 2em',
-  width: '50%',
-  textAlign: 'center',
-  '@media (max-width: 770px)': {
-    width: '100%'
-  }
-}
-
-const container = {
-  alignSelf: 'center',
-  display: 'flex',
-  marginBottom: '2em',
-  '@media (max-width: 770px)': {
-    flexDirection: 'column',
-    width: '80%'
-  }
-}
-
-const languageContainer = {
-  display: 'flex',
-  flexWrap: 'wrap',
-  justifyContent: 'center'
-}
-
-const language = {
-  width: '25%',
-  margin: '4%',
-  transition: '.2s',
-  position: 'relative'
+const content = {
+  maxWidth: "70%",
+  marginTop: "10em",
+  marginLeft: "auto",
+  marginRight: "auto"
 }
 
 const IndexPage = () => (
-  <div>
-    <div style={headerImage}>
-      <div style={caption}>
-        <h1>Zachary Banducci</h1>
-        <h3>Aspiring fullstack developer</h3>
-      </div>
-    </div>
-    <div style={mainContent}>
-      <div css={container}>
-        <section css={section}>
-          <h2>About Me</h2>
-          <p>My name is Zach Banducci and my hometown is in Bakersfield, CA. I am a fourth year computer
-            science major at SMU aiming to become a fullstack develper.
-          </p>
-        </section>
-        <section css={section}>
-          <h2>Languages and Frameworks</h2>
-          <div style={languageContainer}>
-            <img style={language} src={node} alt="Node.js"/>
-            <img style={language} src={javascript} alt="Javascript"/>
-            <img style={language} src={react} alt="React"/>
-            <img style={language} src={css3} alt="CSS 3"/>
-            <img style={language} src={html5} alt="HTML 5"/>
-            <img style={language} src={cplusplus} alt="C++"/>
-          </div>
-        </section>
-      </div>
-    </div>
-  </div>
+  <Layout>
+    <Header />
+      <div style={content}>
+        <AboutMe />
+        <Skills />
+          <div>
+          <h2>Work Experience <span role="img" aria-label="#shirt">👔</span></h2>
+          <Row gutter={20}>
+            <Col md={12}>
+              <Card title="Web Engineer Intern" company="Veryable, Inc" link="https://veryableops.com" img={veryable} languages={[node, postgres, react]}>
+                <section>
+                   <p>Over the summer of 2018, I had the oportunity to work wth
+                   a startup in Dallas called Veryable. I worked as a web
+                   engineer intern, working with the Veryable API to implement
+                   new features and provide </p>
+                </section>
+              </Card>
+            </Col>
+            <Col md={12}>
+              <Card title="Data Structures Teaching Assistant" company="SMU" link="https://smu.edu" img={smu} languages={[cpp]}>
+                <section>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor felis massa, vel commodo felis maximus in. Proin non eleifend felis. Proin posuere varius lacus, eget gravida libero. Mauris dignissim sagittis ullamcorper. Aliquam erat volutpat. Suspendisse in ante ac eros dictum ullamcorper sit amet sed lorem. Donec volutpat ullamcorper risus nec feugiat. Phasellus at placerat risus.</p>
+                </section>
+              </Card>
+            </Col>
+          </Row>
+        </div>
+      <Projects />
+    </div> 
+  </Layout>
 )
 
 export default IndexPage

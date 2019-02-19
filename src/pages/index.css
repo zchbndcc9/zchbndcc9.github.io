@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Kollektif';
+    src: url('../assets/fonts/Kollektif.ttf');
+}
+
+body {
+    background: #F5EEFF;
+}
+h1 {
+    font-family: 'Kollektif';
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Avenir';
+}
+
+h1 {
+    font-size: 35pt
+}
+
+code {
+    font-family: 'FiraCode';
+    font-size: 14pt;
+}
+
+p, section, article {
+    font-family: 'Avenir';
+    font-size: 13pt;
+}
+
