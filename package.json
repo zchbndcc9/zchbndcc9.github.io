@@ -9,7 +9,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^5.1.2",
     "tailwindcss": "^1.1.4"
   },
   "keywords": [
@@ -30,7 +30,7 @@
     "babel-jest": "^24.8.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-react-app": "^4.0.1",
+    "eslint-config-react-app": "^5.1.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
