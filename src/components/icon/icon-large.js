@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import Icon from './icon';
 
 const IconLarge = ({ ...props }) => (
-  <Icon style={{ width: "15em", padding: "2.5em"}} {...props} />
-)
+  <Icon style={{ width: '15em', padding: '2.5em' }} {...props} />
+);
 
-export default IconLarge
+export default IconLarge;

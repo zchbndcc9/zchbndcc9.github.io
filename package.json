@@ -4,17 +4,13 @@
   "version": "1.0.0",
   "author": "Zach Banducci <zbducci@gmail.com>",
   "dependencies": {
-    "@emotion/core": "^10.0.10",
-    "@emotion/styled": "^10.0.12",
     "gatsby": "^2.0.91",
     "history": "^4.7.2",
     "prop-types": "^15.7.2",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-helmet": "^5.2.0",
-    "react-reveal": "^1.2.2",
     "react-router-dom": "^4.3.1",
-    "react-scroll-parallax": "^1.3.5"
+    "tailwindcss": "^1.1.4"
   },
   "keywords": [
     "gatsby"
