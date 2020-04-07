@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "author": "Zach Banducci <zbducci@gmail.com>",
   "dependencies": {
-    "docz": "^2.2.0",
+    "docz": "^2.3.1",
     "emotion": "^10.0.27",
-    "gatsby": "^2.0.91",
+    "gatsby": "^2.20.12",
     "history": "^4.7.2",
     "prop-types": "^15.7.2",
     "react": "^16.6.1",
