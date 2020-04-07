@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "author": "Zach Banducci <zbducci@gmail.com>",
   "dependencies": {
+    "@emotion/core": "^10.0.28",
     "docz": "^2.3.1",
-    "emotion": "^10.0.27",
     "gatsby": "^2.20.12",
+    "gatsby-plugin-emotion": "^4.2.1",
     "history": "^4.7.2",
     "prop-types": "^15.7.2",
     "react": "^16.6.1",
