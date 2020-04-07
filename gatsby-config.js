@@ -1,5 +1,5 @@
 module.exports = {
   siteMetadata: {
-    title: "Zach's Blogspot",
+    title: 'Zach Banducci 🐝',
   },
 };

@@ -4,19 +4,23 @@
   "version": "1.0.0",
   "author": "Zach Banducci <zbducci@gmail.com>",
   "dependencies": {
+    "docz": "^2.2.0",
+    "emotion": "^10.0.27",
     "gatsby": "^2.0.91",
     "history": "^4.7.2",
     "prop-types": "^15.7.2",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-router-dom": "^5.1.2",
-    "tailwindcss": "^1.1.4"
+    "react-router-dom": "^5.1.2"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "scripts": {
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "lint": "eslint --fix 'src/**/*.{js,jsx}'",
